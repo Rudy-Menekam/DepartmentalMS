@@ -9,6 +9,18 @@ Enter your description here
 ### Back-end view 
 Generated with [QuickAdminPanel](https://quickadminpanel.com)
 
+### How to setup
+
+- `git clone https://github.com/Rudy-Menekam/DepartmentalMS.git`
+- `cd DepartmentalMS`
+- `composer install`
+- `cp .env.example .env`
+- `php artisan key:gen`
+
+*Now create an empty database in mysql with any name of your choice. Add database credentails to `.env`*
+
+- `php artisan serve`
+
 Credentials to log in:
 
 Email: admin@admin.com
