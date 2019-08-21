@@ -1,11 +1,17 @@
 <?php
-Route::get('/', 'HomeController@index');
+Route::get('/', 'HomeController@welcome')->name('welcome');
 Route::get('course/{slug}', ['uses' => 'CoursesController@show', 'as' => 'courses.show']);
 Route::post('course/payment', ['uses' => 'CoursesController@payment', 'as' => 'courses.payment']);
 Route::post('course/{course_id}/rating', ['uses' => 'CoursesController@rating', 'as' => 'courses.rating']);
 
 Route::get('lesson/{course_id}/{slug}', ['uses' => 'LessonsController@show', 'as' => 'lessons.show']);
 Route::post('lesson/{slug}/test', ['uses' => 'LessonsController@test', 'as' => 'lessons.test']);
+
+
+// Front route
+Route::get('/getting_started', 'HomeController@gettingStarted')->name('getting_started');
+Route::get('/about', 'HomeController@about')->name('about');
+
 
 // Authentication Routes...
 $this->get('login', 'Auth\LoginController@showLoginForm')->name('auth.login');

@@ -1,0 +1,497 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+
+    .slicknav_btn{
+        margin-right: 45px
+    }
+    .edulab-logo{
+        text-align: center
+    }
+    .edulab-main-slide{
+        height: 560px
+    }
+    .edulab-ch{
+        height: 200px;
+        width: 200px;
+    }
+    .edulab-important-facts-area ul li h2{
+        font-size: 30px;
+    }
+    .edulab-about-right{
+        margin-top: 70px;
+    }
+    .edulab-about-text{
+        padding-left: 0
+    }
+    .single-pricing-table, .single-staff, .single-news, .single-footer{
+        margin-top: 50px;
+    }
+    .item_4{
+        width: 95%;
+    }
+    .edulab-popular-courses-area .col-md-4:nth-last-child(-n+3), .edulab-education-staff-area.team-page .col-md-4:nth-last-child(-n+3){
+        margin-bottom: 30px
+    }
+    .edulab-course-sidebar-right{
+        margin-top: 50px
+    }
+    .pagination{
+        margin: 50px 0;
+    }
+    .single-gallery{
+        height: 170px;
+        width: 210px;
+    }
+    .edulab-faqs-right > h3, .edulab-faqs-left > h3{
+        margin-top: 50px
+    }
+    .edulab-faqs-right > form, .edulab-contact-form-right > form{
+        margin-top: 50px
+    }
+    .feature-right{
+        margin-top: 50px
+    }
+    .edulab-leave-comment{
+        margin-bottom: 50px
+    }
+    
+    
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ 
+    .slicknav_btn{
+        margin-right: 30px
+    }
+    .edulab-header-top-left{
+        display: none
+    }
+    .edulab-header-top-right{
+        text-align: center
+    }
+    .edulab-mainmenu{
+        display: none
+    }
+    .edulab-responsive-menu{
+        display: block
+    }
+    .edulab-header-search-bar{
+        display: none
+    }
+    .edulab-main-slide{
+        height: 360px
+    }
+    .edulab-main-caption h2{
+        font-size: 30px
+    }
+    .edulab-main-caption p{
+        font-size: 16px
+    }
+    .edulab-section-title h2, .edulab-section-title-overlay h2{
+        font-size: 23px
+    }
+    .edulab-section-title, .edulab-section-title-overlay{
+        margin-bottom: 10%
+    }
+    .edulab-ch{
+        width: 190px;
+        height: 190px
+    }
+    .edulab-choose-courses-area .col-sm-4:nth-last-child(-n+3){
+        margin-bottom: 50px
+    }
+    .edulab-choose-courses-area .col-sm-4:last-child{
+        margin-bottom: 0px
+    }
+    .edulab-important-facts-area ul li h2{
+        font-size: 25px
+    }
+    .edulab-important-facts-area ul{
+        text-align: center
+    }
+    .edulab-important-facts-area ul li::before{
+        background-color: transparent
+    }
+    .edulab-important-facts-area ul li{
+        float: none;
+        display:inline
+    }
+    .edulab-important-facts-area ul li span{
+        margin-bottom: 30px;
+        display: block
+    }
+    .reponsive-no{
+        margin-bottom: 0px !important
+    }
+    .edulab-about-right{
+        margin-top: 50px
+    }
+    .edulab-about-text{
+        padding-left: 0px
+    }
+    .single-pricing-table, .single-staff, .single-news, .single-footer{
+        margin-top: 30px
+    }
+    .course-schedule ul li{
+        padding: 0 1px
+    }
+    .item_4{
+        width: 90%
+    }
+    .quotes-left, .quotes-right, .edulab-copyright-left, .edulab-copyright-right, .find-course-left{
+        text-align: center
+    }
+    .quotes-left > h2{
+        margin-bottom: 15px;
+        font-size: 21px
+    }
+    .breadcromb > h2{
+        font-size: 25px;
+        letter-spacing: 2px
+    }
+    .find-course-left > h2{
+        font-size: 23px
+    }
+    .edulab-popular-courses-area .col-md-4:nth-last-child(-n+3){
+        margin-bottom: 30px
+    }
+    .edulab-course-sidebar-right{
+        margin: 50px 0
+    }
+    .single-course-page > h2{
+        font-size: 21px
+    }
+    .pagination{
+        margin: 50px 0 30px
+    }
+    .gallery-filter ul li{
+        display: block;
+        margin: 10px 0;
+        padding-right: 0
+    }
+    .gallery-filter ul li::before{
+        display: none
+    }
+    .single-gallery{
+        margin: 10px 0;
+        height: auto;
+        width: 100%
+    }
+    .team-touch span{
+        width: 25%
+    }
+    .edulab-faqs-right > h3, .edulab-faqs-left > h3{
+        font-size: 20px
+    }
+    .edulab-faqs-right{
+        margin-top: 50px
+    }
+    .edulab-faqs-right > form, .edulab-contact-form-right > form{
+        padding: 30px 20px
+    }
+    .edulab-notfound-area h2{
+        font-size: 80px;
+        line-height: 80px;
+        margin-bottom: 10px
+    }
+    .edulab-notfound-area h3{
+        font-size: 19px
+    }
+    .edulab-notfound-area button{
+        width: 75px;
+        font-size: 22px
+    }
+    .edulab-notfound-area input{
+        padding: 5px 85px 5px 10px !important
+    }
+    .social-connect h4{
+        font-size: 18px
+    }
+    .footer-newsletter input[type="email"]{
+        padding: 5px 75px 5px 10px
+    }
+    .login-slogan h3{
+        font-size: 18px
+    }
+    .edulab-login-logo h2{
+        font-size: 40px
+    }
+    .login-box form{
+        width: 100%
+    }
+    .login-box form .submit{
+        right: -10px;
+        top: 42px
+    }
+    .login-box form .registration{
+        top: 100px !important
+    }
+    .feature-left > h3{
+        font-size: 20px
+    }
+    .feature-right{
+        margin-top: 50px
+    }
+    .news-caption span.news-author{
+        padding-left: 10px
+    }
+    .single-news-title > h2{
+        font-size: 20px;
+        line-height: 30px
+    }
+    .single-news-title a{
+        display: none
+    }
+    .single-news-title ul li{
+        margin-right: 0;
+        padding-right: 0
+    }
+    .comment-list ul li img{
+        margin: 0 0 20px
+    }
+    .comment-list ul ul{
+        margin-left: 40px
+    }
+    .ns-com-name{
+        width: 100% !important
+    }
+    .comment{
+        width: 100% !important
+    }
+    .edulab-leave-comment{
+        margin-bottom: 50px
+    }
+    .edulab-contact-desc > h3{
+        font-size: 20px;
+        line-height: 30px
+    }
+    .top-for-ul{
+        display: none
+    }
+    
+
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+    .slicknav_btn{
+        margin-right: 45px
+    }
+    .edulab-header-top-left{
+        display: none
+    }
+    .edulab-header-top-right{
+        text-align: center
+    }
+    .edulab-mainmenu{
+        display: none
+    }
+    .edulab-responsive-menu{
+        display: block
+    }
+    .edulab-header-search-bar{
+        display: none
+    }
+    .edulab-main-slide{
+        height: 390px
+    }
+    .edulab-main-caption h2{
+        font-size: 30px
+    }
+    .edulab-main-caption p{
+        font-size: 18px
+    }
+    .edulab-section-title h2, .edulab-section-title-overlay h2{
+        font-size: 34px
+    }
+    .edulab-section-title, .edulab-section-title-overlay{
+        margin-bottom: 10%
+    }
+    .edulab-ch{
+        width: 210px;
+        height: 210px
+    }
+    .edulab-choose-courses-area .col-sm-4:nth-last-child(-n+3){
+        margin-bottom: 50px
+    }
+    .edulab-choose-courses-area .col-sm-4:last-child{
+        margin-bottom: 0px
+    }
+    .edulab-important-facts-area ul li h2{
+        font-size: 32px
+    }
+    .edulab-important-facts-area ul{
+        text-align: center
+    }
+    .edulab-important-facts-area ul li::before{
+        background-color: transparent
+    }
+    .edulab-important-facts-area ul li{
+        float: none;
+        display:inline
+    }
+    .edulab-important-facts-area ul li span{
+        margin-bottom: 50px;
+        display: block
+    }
+    .reponsive-no{
+        margin-bottom: 0px !important
+    }
+    .edulab-about-right{
+        margin-top: 50px
+    }
+    .edulab-about-text{
+        padding-left: 0px
+    }
+    .single-pricing-table, .single-staff, .single-news, .single-footer{
+        margin-top: 50px
+    }
+    .course-schedule ul li{
+        padding: 0 1px
+    }
+    .item_4{
+        width: 90%
+    }
+    .quotes-left, .quotes-right, .edulab-copyright-left, .edulab-copyright-right, .find-course-left{
+        text-align: center
+    }
+    .quotes-left > h2{
+        margin-bottom: 15px;
+        font-size: 21px
+    }
+    .breadcromb > h2{
+        font-size: 25px;
+        letter-spacing: 2px
+    }
+    .find-course-left > h2{
+        font-size: 23px
+    }
+    .edulab-popular-courses-area .col-md-4:nth-last-child(-n+3){
+        margin-bottom: 30px
+    }
+    .edulab-course-sidebar-right{
+        margin: 50px 0
+    }
+    .single-course-page > h2{
+        font-size: 21px
+    }
+    .pagination{
+        margin: 50px 0 30px
+    }
+    .gallery-filter ul li{
+        display: inline-block;
+        margin: 0 15px 0 0;
+        padding-right: 15px;
+    }
+    .gallery-filter ul li::before{
+        display: block
+    }
+    .single-gallery{
+        height: 105px;
+        margin: 12px;
+        width: 175px;
+    }
+    .team-touch span{
+        width: 25%
+    }
+    .edulab-faqs-right > h3, .edulab-faqs-left > h3{
+        font-size: 20px
+    }
+    .edulab-faqs-right{
+        margin-top: 50px
+    }
+    .edulab-faqs-right > form, .edulab-contact-form-right > form{
+        padding: 30px 20px
+    }
+    .edulab-notfound-area h2{
+        font-size: 95px;
+        line-height: 95px;
+        margin-bottom: 10px
+    }
+    .edulab-notfound-area h3{
+        font-size: 19px
+    }
+    .edulab-notfound-area button{
+        width: 75px;
+        font-size: 22px
+    }
+    .edulab-notfound-area input{
+        padding: 5px 85px 5px 10px !important
+    }
+    .social-connect h4{
+        font-size: 18px
+    }
+    .footer-newsletter input[type="email"]{
+        padding: 5px 75px 5px 10px
+    }
+    .login-slogan h3{
+        font-size: 22px
+    }
+    .edulab-login-logo h2{
+        font-size: 50px
+    }
+    .login-box form{
+        width: 100%
+    }
+    .login-box form .submit{
+        right: -10px;
+        top: 42px
+    }
+    .login-box form .registration{
+        top: 100px !important
+    }
+    .feature-left > h3{
+        font-size: 20px
+    }
+    .feature-right{
+        margin-top: 50px
+    }
+    .news-caption span.news-author{
+        padding-left: 10px
+    }
+    .single-news-title > h2{
+        font-size: 20px;
+        line-height: 30px
+    }
+    .single-news-title a{
+        display: block
+    }
+    .single-news-title ul li{
+        margin-right: 10px;
+        padding-right: 10px
+    }
+    .comment-list ul li img{
+        margin: 0 0 20px
+    }
+    .comment-list ul ul{
+        margin-left: 90px
+    }
+    .ns-com-name{
+        width: 100% !important
+    }
+    .comment{
+        width: 100% !important
+    }
+    .edulab-leave-comment{
+        margin-bottom: 50px
+    }
+    .edulab-contact-desc > h3{
+        font-size: 20px;
+        line-height: 30px
+    }
+    .single-footer .footer-gallery a{
+        width: 10%
+    }
+    .top-for-ul{
+        display: none
+    }
+
+}

@@ -1,0 +1,2372 @@
+/*=================================================================================
+
+    Template Name: Edulab || Reponsive HTML5 Template
+    Author: Themescare
+    Author URI: http://themeforest.net/user/themescare
+    Description: 
+    Version: 1.0
+
+===================================================================================*/
+
+/* Table of Content
+==================================================
+    
+    01. IMPORTED FONTS
+    02. DEFAULT CSS
+    03. PAGINATION CSS
+    04. BREADCROMB CSS
+    05. REPONSIVE MENU CSS
+    06. HEADER TOP AREA CSS
+    07. MAIN HEADER AREA CSS
+    08. MAIN SLIDER AREA CSS
+    09. CHOOSE COURSES AREA CSS
+    10. IMPORTANT FACTS AREA CSS
+    11. POPULAR COURSE AREA CSS
+    12. ABOUT AREA CSS
+    13. PRICING TABLE CSS
+    14. PEOPLE SAY AREA CSS
+    15. STAFF AREA CSS
+    16. TEAM DETAILS PAGE CSS
+    17. NEWS AREA CSS
+    18. QUOTES AREA CSS
+    19. FOOTER AREA CSS
+    20. FIND COURSE AREA CSS
+    21. ALL COURSE PAGE CSS
+    22. COURSE LEFT SIDEBAR CSS
+    23. SINGLE COURSE CSS
+    24. GALLERY PAGE CSS
+    25. ABOUT PAGE CSS
+    26. NEWS PAGE CSS
+    27. SINGLE NEWS PAGE CSS
+    28. FAQS PAGE CSS
+    29. 404 PAGE CSS
+    30. LOGIN PAGE CSS
+    31. CONTACT PAGE CSS
+
+*/
+
+/*================================================
+    01. IMPORTED FONTS
+==================================================*/
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Rokkitt:400,500,600');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,300i,400,500,600,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Philosopher:400,400i,700,700i');
+
+
+/*================================================
+    02. DEFAULT CSS
+==================================================*/ 
+
+body {
+    font-family: 'Lato', sans-serif !important;
+    font-size: 15px;
+    line-height: 28px;
+    color: #333;
+    font-weight: 300
+}
+html,body { 
+    height: 100%;
+}
+img {
+    max-width: 100%;
+    height: auto
+}
+.edulab-btn {
+    background: #3ac6b6 none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 15px !important;
+    padding: 7px 15px;
+    text-transform: uppercase;
+    font-family: "Raleway",sans-serif;
+}
+.edulab-btn:hover{
+    background: #242c42 none repeat scroll 0 0;
+    color: #fff
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+a{
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    color: inherit
+}
+a:focus {
+    text-decoration: none;
+    outline: 0 solid 
+}
+a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+ul, ol {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style-type: none;
+}
+.section_100 {
+    padding: 100px 0;
+}
+.section_50 {
+    padding: 50px 0;
+}
+.section_25 {
+    padding: 25px 0;
+}
+.section_15{
+    padding: 15px 0
+}
+.edulab-section-title-overlay{
+    margin-bottom: 5%
+}
+.edulab-section-title{
+    margin-bottom: 6%
+}
+.edulab-section-title h2 {
+    font-family: "Raleway",sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+}
+.edulab-section-title-overlay h2 {
+    font-family: "Raleway",sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+    color: #fff
+}
+.edulab-section-title h2 span, .edulab-section-title-overlay h2 span{
+    color: #3ac6b6
+}
+.heading-line{
+    background: #3ac6b6 none repeat scroll 0 0;
+    height: 3px;
+    width: 13%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.no-pad-left{
+    padding-left: 0
+}
+.no-pad-right{
+    padding-right: 0
+}
+
+/*================================================
+    03. PAGINATION CSS
+==================================================*/ 
+
+.pagination {
+    margin: 50px 0 0;
+}
+.pagination-box {
+    text-align: center;
+}
+.pagination a {
+    color: #555 !important;
+    border: 1px solid #3ac6b6 !important
+}
+.pagination .active > a, .pagination a:hover {
+    background: #3ac6b6 none repeat scroll 0 0 !important; 
+    color: #fff !important
+}
+
+/*================================================
+    04. BREADCROMB CSS
+==================================================*/ 
+.edulab-breadcromb-area {
+    background-attachment: fixed;
+    background-image: url("../img/breadcromb-bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: #fff
+}
+.edulab-breadcromb-area .overlay{
+    background: rgba(0, 0, 0, 0.57) none repeat scroll 0 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.breadcromb > h2 {
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+}
+.breadcromb ul {
+    margin-top: 10px;
+}
+.breadcromb ul li {
+    display: inline-block;
+    font-weight: 700;
+    margin: 0 5px;
+    text-transform: capitalize;
+    color: #3ac6b6 
+}
+.breadcromb ul li a {
+    font-weight: 400;
+    color: #fff
+}
+.breadcromb ul li a:hover{
+    color: #3ac6b6 
+}
+
+/*================================================
+    05. REPONSIVE MENU CSS
+==================================================*/ 
+.edulab-responsive-menu{
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 0px;
+    width: 100%;
+    z-index: 999;
+}
+.slicknav_nav a{
+    font-size: 16px;
+    margin: 0;
+    text-transform: capitalize;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+.slicknav_menu {
+    background: transparent;
+}
+.slicknav_menutxt {
+    display: none !important;
+}
+.slicknav_arrow {
+    float: right;
+    color: #fff
+}
+.slicknav_nav a:hover{
+    border-radius: 0;
+}
+.slicknav_nav .slicknav_row:hover{
+    border-radius: 0
+}
+.slicknav_nav a:hover, .slicknav_nav .slicknav_row:hover {
+    background: #3ac6b6 none repeat scroll 0 0;
+    color: #fff
+}
+.slicknav_nav li {
+    border-bottom: 1px solid #aaa;
+}
+.slicknav_nav li:last-child{
+    border-bottom: 0px solid #aaa
+}
+.slicknav_nav {
+    border-top: 1px solid #535353;
+    background:  #000 none repeat scroll 0 0
+}
+.slicknav_btn{
+    margin-bottom: 15px;
+    margin-right: 20px;
+    background-color: #000 !important;
+    line-height: 0;
+    margin-top: 20px
+}
+.slicknav_menu .slicknav_icon {
+    float: none !important;
+    margin: 0
+}
+.slicknav_icon-bar {
+    height: 3px !important;
+    margin: 5px 0;
+    width: 30px !important;
+}
+.slicknav_menu .slicknav_icon-bar {
+    background-color: #fff;
+}
+
+/*================================================
+    06. HEADER TOP AREA CSS
+==================================================*/ 
+
+.edulab-header-top-area{
+    background: #242c42 none repeat scroll 0 0;
+    color: #fff;
+    font-size: 13px;
+}
+.edulab-header-top-left{
+    display: block
+}
+.edulab-header-top-left > p {
+    display: inline-block;
+    font-weight: 400;
+    margin-right: 15px;
+}
+.edulab-header-top-left > p:last-child{
+    margin-right: 0px
+}
+.edulab-header-top-left p i{
+    margin-right: 5px;
+    font-size: 16px;
+    color: #3ac6b6
+}
+.edulab-header-top-left p a:hover{
+    color: #3ac6b6
+}
+.edulab-header-top-middle > ul {
+    text-align: center;
+}
+.edulab-header-top-middle ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+.edulab-header-top-middle ul li a{
+    display: block
+}
+.edulab-header-top-middle ul li a:hover{
+    color: #3ac6b6
+}
+.edulab-header-top-right {
+    font-weight: 400;
+    text-align: right;
+    text-transform: capitalize;
+}
+.edulab-header-top-right .register:after {
+    color: #fff !important;
+    content: "|";
+    margin-right: 10px;
+    padding-left: 10px;
+}
+.edulab-header-top-right a:hover{
+    color: #3ac6b6
+}
+
+/*================================================
+    07. MAIN HEADER AREA CSS
+==================================================*/ 
+
+.edulab-logo h1 {
+    color: #000;
+    display: inline-block;
+    font-family: "Rokkitt",serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 5px 0;
+    position: relative;
+    text-transform: uppercase;
+    z-index: 9999;
+}
+.edulab-logo h1 span{
+    color: #3ac6b6;
+    margin-left: 5px
+}
+.edulab-mainmenu ul {
+    text-align: center;
+}
+.edulab-mainmenu ul li {
+    display: inline-block;
+}
+.edulab-mainmenu ul li a {
+    color: #1c1c1c;
+    display: block;
+    font-family: "Philosopher",sans-serif;
+    font-weight: 400;
+    padding: 32px 10px;
+    text-transform: uppercase;
+}
+.edulab-mainmenu ul li a:hover{
+    color: #3ac6b6
+}
+.edulab-mainmenu ul .current-page-item > a {
+    color: #3ac6b6;
+}
+.edulab-mainmenu ul li ul{
+    background:#2b2c36 none repeat scroll 0 0;
+    border-top: 2px solid #3ac6b6;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    position: absolute;
+    top: 100%;
+    -webkit-transform:scaleY(0);
+            transform:scaleY(0);
+    -webkit-transform-origin: 50% 0 0;
+            transform-origin: 50% 0 0;
+    -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-timing-function: ease-out;
+            transition-timing-function: ease-out;
+    visibility: hidden;
+    width: 220px;
+    text-align: left;
+    z-index: 99
+}
+.edulab-mainmenu ul li:hover > ul{
+    visibility: visible;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    -webkit-transform:scaleY(1);
+            transform:scaleY(1);
+    -webkit-transition-timing-function: cubic-bezier(.52, 1.64, .85, .92);
+            transition-timing-function: cubic-bezier(.52, 1.64, .85, .92)
+}
+.edulab-mainmenu ul li ul li {
+    border-bottom: 1px solid #555;
+    display: block;
+    position: relative
+}
+.edulab-mainmenu ul li ul li:last-child {
+    border-bottom: 0px solid #555;
+}
+.edulab-mainmenu ul li ul li a {
+    display: block;
+    padding: 10px 15px;
+    text-transform: capitalize;
+    color: #fff !important
+}
+.edulab-mainmenu ul li ul li a:hover{
+    background: #3ac6b6 none repeat scroll 0 0;
+    color: #fff
+}
+.edulab-mainmenu ul li:hover a{
+    color: #3ac6b6
+}
+.edulab-mainmenu ul li ul li ul{
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    position: absolute;
+    left: 100%;
+    top: 0;
+    visibility: hidden;
+    z-index: 99;
+    width: 180px;
+    -webkit-transform:scaleX(0);
+            transform:scaleX(0);
+    -webkit-transform-origin: 0 50% 0;
+            transform-origin: 0 50% 0;
+    -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-timing-function: ease-out;
+            transition-timing-function: ease-out;
+}
+.edulab-mainmenu ul li ul li:hover > ul{
+    visibility: visible;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    -webkit-transform:scaleX(1);
+            transform:scaleX(1);
+    -webkit-transition-timing-function: cubic-bezier(.52, 1.64, .85, .92);
+            transition-timing-function: cubic-bezier(.52, 1.64, .85, .92)
+}
+.edulab-mainmenu ul li:hover ul li ul li{
+    display: block;
+    width: 180px
+}
+.edulab-header-search-bar form {
+    position: relative;
+    z-index: 9;
+}
+.edulab-header-search-bar:after {
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    z-index: 1;
+}
+.edulab-header-search-bar {
+    margin-top: -20px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+.edulab-header-search-bar:after {
+    font-family: fontawesome;
+    content: "\f002";
+}
+.edulab-header-search-bar input[type="search"] {
+    border: medium none;
+    cursor: pointer;
+    height: 40px;
+    padding: 5px 15px;
+    text-indent: -9999px;
+    -webkit-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
+    width: 40px;
+    background: none;
+    color: #1c1c1c;
+    font-family: "Philosopher",sans-serif;
+    font-weight: 400;
+}
+.edulab-header-search-bar input[type="search"]:focus {
+    border: 1px solid #ddd;
+    text-indent: 0;
+    width: 200px;
+    background: #fff;
+    cursor: text
+}
+.sticky {
+  position: static;
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+}
+.stuck {
+    background: #fff none repeat scroll 0 0;
+  min-height: 0;
+  padding: 0.5vh;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99999;
+    border-bottom: 2px solid #3ac6b6
+}
+
+/*================================================
+    08. MAIN SLIDER AREA CSS
+==================================================*/ 
+
+.slide-item-1 {
+    background: rgba(0, 0, 0, 0.3) url("../img/slider-1.jpg") repeat scroll 0 0;
+}
+.slide-item-2 {
+    background: rgba(0, 0, 0, 0.3) url("../img/slider-2.jpg") repeat scroll 0 0;
+}
+.edulab-main-caption{
+    background: rgba(0, 0, 0, 0.58) none repeat scroll 0 0
+}
+.edulab-main-slide {
+    background-color: #eee;
+    background-position: center center;
+    background-size: cover;
+    height: 560px;
+}
+.edulab-main-caption{
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.edulab-caption-cell {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    
+}
+.edulab-main-caption h2 {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    text-shadow: 0px 0px 1px #000
+}
+.edulab-main-caption p {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 20px 0;
+    text-transform: capitalize;
+    text-shadow: 0px 0px 1px #000
+}
+.edulab-main-caption a {
+    margin: 0 5px;
+}
+.edulab-slide .owl-prev {
+    background: rgba(186, 186, 186, 0.35) none repeat scroll 0 0 ;
+    border-radius: 0 !important;
+    color: #fff !important;
+    font-size: 27px !important;
+    height: 50px;
+    left: 3%;
+    line-height: 37px;
+    position: absolute;
+    top: 45%;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    width: 50px;
+    padding: 5px;
+    text-align: center
+}
+.edulab-slide .owl-next {
+    background: rgba(186, 186, 186, 0.35) none repeat scroll 0 0 ;
+    border-radius: 0 !important;
+    color: #fff !important;
+    font-size: 27px !important;
+    height: 50px;
+    line-height: 37px;
+    position: absolute;
+    right: 3%;
+    top: 45%;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    width: 50px;
+    padding: 5px;
+    text-align: center
+}
+.edulab-slide .owl-prev:hover, .edulab-slide .owl-next:hover{
+    background: #3ac6b6 none repeat scroll 0 0;
+    color: #fff;
+}
+
+/*================================================
+    09. CHOOSE COURSES AREA CSS
+==================================================*/ 
+
+.edulab-choose-courses-area .col-sm-4 {
+    margin-bottom: 50px;
+}
+.edulab-choose-courses-area .col-sm-4:nth-last-child(-n+3){
+    margin-bottom: 0
+}
+.edulab-ch-grid:after {
+    clear: both;
+}
+.edulab-ch-grid:after, .edulab-ch-item:before {
+    content: "";
+    display: table;
+}
+.edulab-ch-grid {
+    display: block;
+    list-style: outside none none;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+.edulab-ch-item {
+    border-radius: 50%;
+    cursor: default;
+    height: 100%;
+    position: relative;
+    width: 100%;
+}   
+.edulab-ch-info {
+    background: #242c42 none repeat scroll 0 0;
+    border-radius: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    border: 15px solid #222d4b
+}
+.edulab-ch-info > h5 {
+    border-bottom: 1px solid #ddd;
+    color: #fff;
+    display: inline-block;
+    font-size: 17px;
+    padding-bottom: 10px;
+    position: relative;
+    top: 60px;
+}
+.edulab-ch-info p {
+    color: #fff;
+    font-size: 13px;
+    font-style: italic;
+    letter-spacing: 1px;
+    margin: 0 46px;
+    padding: 22px 0 0;
+    position: relative;
+    text-shadow: 0 0 1px #fff, 0 1px 2px rgba(0, 0, 0, 0.3);
+    text-transform: capitalize;
+    top: 45px;
+}
+.ch-thumb:after {
+    background: rgba(0, 0, 0, 0) -webkit-radial-gradient(center center ellipse , rgb(6, 145, 140) 0%, rgb(125, 126, 125) 100%) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) radial-gradient(ellipse at center center , rgb(6, 145, 140) 0%, rgb(125, 126, 125) 100%) repeat scroll 0 0;
+    border-radius: 50%;
+    content: "";
+    height: 8px;
+    left: 95%;
+    margin: -4px 0 0 -4px;
+    position: absolute;
+    top: 40%;
+    width: 8px;
+}
+.ch-img-1 {
+    background:#3ac6b6 none repeat scroll 0 0;
+    z-index: 12;
+}
+.ch-thumb {
+    border-radius: 50%;
+    box-shadow: 0 0 0 15px rgba(255, 255, 255, 0.5) inset;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    -webkit-transform-origin: 95% 40% 0;
+          transform-origin: 95% 40% 0;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    width: 100%;
+}
+.edulab-ch:hover .ch-thumb {
+    -webkit-transform: rotate(-110deg);
+          transform: rotate(-110deg);
+    z-index: 999
+}
+.edulab-ch{
+    display: inline-block;
+    height: 220px;
+    width: 220px;
+}
+.ch-img-1 i {
+    color: #fff;
+    font-size: 70px;
+    margin-top: 35%
+}
+.edulab-ch > p {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 15px 0;
+    text-transform: uppercase
+}
+
+/*================================================
+    10. IMPORTANT FACTS AREA CSS
+==================================================*/ 
+.edulab-important-facts-area {
+    background-attachment: fixed;
+    background-image: url("../img/facts-bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%
+}
+.edulab-important-facts-area .overlay{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.57) none repeat scroll 0 0
+}
+.edulab-important-facts-area ul li:before {
+    background-color: #fff;
+    bottom: 10px;
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 1px;
+}
+.edulab-important-facts-area ul li:last-child:before{
+    display: none
+}
+.edulab-important-facts-area ul li {
+    float: left;
+    position: relative;
+    text-align: center;
+    width: 25%;
+}
+.edulab-important-facts-area ul li h2 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0 0 5px;
+}
+.edulab-important-facts-area ul li span {
+    color: #fff;
+    font-size: 15px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+/*================================================
+    11. POPULAR COURSE AREA CSS
+==================================================*/ 
+
+.edulab-courses-slide-img{
+    position: relative
+}
+.edulab-courses-slide-img > img {
+  width: 100%;
+}
+.course-price {
+    background: #3ac6b6 none repeat scroll 0 0;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    height: 30px;
+    line-height: 20px;
+    padding: 4px 15px;
+    position: absolute;
+    right: -19px;
+    top: 25px;
+    width: 70px;
+    z-index: 9;
+}
+.course-price p:before, .course-price p:after {
+    content: " ";
+    height: 0;
+    position: absolute;
+    width: 0;
+}   
+.course-price p:after {
+    border-color: #199587 transparent;
+    border-style: solid;
+    border-width: 15px 20px 0 0;
+    right: 0;
+    top: 100%;
+}
+.course-overlay{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    -webkit-transform: scale(0.02);
+        transform: scale(0.02);
+    -webkit-transform-origin: center center 0;
+        transform-origin: center center 0;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    visibility: hidden;
+    width: 100%;
+    background: rgba(51, 51, 51, 0.54) none repeat scroll 0 0
+}
+.courses-item:hover .course-overlay {
+    -webkit-transform: scale(1);
+          transform: scale(1);
+    visibility: visible;
+}
+.course-overlay > .edulab-btn {
+    color: #fff;
+    left: 30%;
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    width: 40%;
+}
+.courses-text > h3 {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0;
+    text-transform: capitalize;
+    font-family: "Raleway",sans-serif;
+}
+.courses-text a:hover{
+    color: #3ac6b6
+}
+.edulab-course-rating{
+    margin-bottom: 5px
+}
+.courses-text > p {
+    color: #555;
+    font-weight: 400;
+}
+.edulab-course-rating > p {
+    display: inline-block;
+    font-size: 13px;
+}
+.edulab-course-rating p i{
+    color: #ffb606
+} 
+.course-schedule ul {
+    margin-top: 10px;
+    text-align: center;
+}
+.course-schedule ul li {
+    border-right: 1px solid #ddd;
+    display: inline-block;
+    margin: 0;
+    padding: 0 5px;
+}
+.course-schedule ul li:last-child{
+    border-right: 0px solid #ddd;
+}
+.course-schedule ul li span {
+    color: #333;
+    display: block;
+    font-size: 14px;
+}
+.courses-text {
+    background: #f9f9f9 none repeat scroll 0 0;
+    padding: 20px;
+}
+.courses-slider .owl-prev {
+    background: #3ac6b6 none repeat scroll 0 0 ;
+    border-radius: 0 !important;
+    color: #fff !important;
+    font-size: 27px !important;
+    height: 50px;
+    line-height: 47px;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    width: 50px;
+    display: inline-block;
+    margin: 10px 5px
+}
+.courses-slider .owl-next {
+    background: #3ac6b6 none repeat scroll 0 0 ;
+    border-radius: 0 !important;
+    color: #fff !important;
+    font-size: 27px !important;
+    height: 50px;
+    line-height: 47px;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    width: 50px;
+    display: inline-block;
+    margin: 10px
+}
+.courses-slider .owl-prev:hover, .courses-slider .owl-next:hover{
+    background: #242c42 none repeat scroll 0 0
+}
+.courses-slider .owl-controls{
+    text-align: center;
+    margin-top: 15px
+}
+
+/*================================================
+    12. ABOUT AREA CSS
+==================================================*/ 
+
+.edulab-about-area{
+    background: #f9f9f9  none repeat scroll 0 0
+}
+.edulab-about-img{
+    position: relative;
+    z-index: 9
+}
+.edulab-about-img > img {
+    border: 5px solid #3ac6b6 ;
+    border-radius: 0 30px;
+}
+.edulab-about-right {
+    margin-top: 0px;
+}
+.edulab-about-img-shadow > img {
+    border: 5px solid #3ac6b6;
+    border-radius: 0 30px;
+    left: 35px;
+    opacity: 0.09;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=9)";
+    position: absolute;
+    top: 40px;
+    z-index: -2;
+}
+.edulab-about-text {
+    padding-left: 20px;
+}
+
+/*================================================
+    13. PRICING TABLE CSS
+==================================================*/ 
+
+.single-pricing-table{
+    box-shadow: 0 0 4px #ddd;
+    text-align: center; 
+    margin-top: 0px
+}
+.pricing-heading {
+    background: #f2f2f2 none repeat scroll 0 0;
+    color: #333;
+    font-weight: 700;
+    padding: 12px 10px;
+    text-transform: uppercase;
+}
+.price-value {
+    background: #3ac6b6 none repeat scroll 0 0;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 20px 10px;
+}
+.single-pricing-table .pricing-desc ul li:nth-child(2n+2), .pricingContent ul li:nth-child(2n+2){
+    background: #f2f2f2
+}
+.pricing-desc ul li{
+    padding: 10px;
+    text-transform: capitalize;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s
+}
+.pricing-desc ul li:hover{
+    padding-left: 20px
+}
+.price-value span {
+    font-size: 30px;
+    color: #fff
+}
+.price-value .month {
+    font-size: 20px;
+    font-weight: 400
+}
+.pricing-desc ul li strong {
+    margin-right: 5px;
+}
+
+/*================================================
+    14. PEOPLE SAY AREA CSS
+==================================================*/ 
+
+.edulab-people-say-area {
+    background-attachment: fixed;
+    background-image: url("../img/client-say-bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%
+}
+.edulab-people-say-area .overlay {
+    background: rgba(0, 0, 0, 0.57) none repeat scroll 0 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.single_item i {
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.item_4 {
+    margin: 0 auto;
+    text-align: center;
+    width: 70%;
+}
+.people-text {
+    color: #fff;
+}
+.people-text > h4 {
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.people-text span {
+    color: #3ac6b6 ;
+    font-weight: 700;
+}
+.people-text h5 {
+    font-size: 14px;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.owl-dots {
+    margin-top: 20px;
+    text-align: center;
+}
+.owl-dots .owl-dot {
+    display: inline-block;
+}
+.owl-theme .owl-dots .owl-dot span {
+    -webkit-backface-visibility: visible;
+          backface-visibility: visible;
+    background: #d6d6d6 none repeat scroll 0 0;
+    border-radius: 30px;
+    display: block;
+    height: 3px;
+    margin: 5px 7px;
+    -webkit-transition: opacity 0.2s ease 0s;
+    transition: opacity 0.2s ease 0s;
+    width: 10px;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s
+}
+.owl-dots .owl-dot.active span, .owl-dots .owl-dot:hover span {
+    background: #3ac6b6 none repeat scroll 0 0;
+}
+
+/*================================================
+    15. STAFF AREA CSS
+==================================================*/ 
+
+.edulab-education-staff-area {
+    background: #f9f9f9 none repeat scroll 0 0;
+}
+.top-line {
+    background: #3ac6b6  none repeat scroll 0 0;
+    height: 150px;
+    width: 100%;
+}
+.single-staff{
+    margin-top: 0px
+}
+.staff-img > img {
+    border: 5px solid #fff;
+    border-radius: 50%;
+    display: block;
+    height: 150px;
+    margin: -110px auto 0;
+    width: 150px;
+}
+.staff-text {
+    background: #fff none repeat scroll 0 0;
+    margin-top: -70px;
+    padding: 100px 20px 20px;
+    text-align: center;
+}
+.staff-post-title {
+    color: #3ac6b6  !important;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.staff-text > h3 {
+    color: #333;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.staff-text ul {
+    margin-top: 20px;
+}
+.staff-text ul li {
+    display: inline-block;
+    margin: 0 2px;
+}
+.staff-text ul li a {
+    background: #eee none repeat scroll 0 0;
+    color: #777;
+    display: block;
+    font-size: 18px;
+    height: 40px;
+    line-height: 39px;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    width: 40px;
+}
+.staff-text ul li a:hover {
+    background: #3ac6b6 none repeat scroll 0 0;
+    color: #fff;
+}
+.staff-text a:hover {
+    color: #3ac6b6 ;
+}
+.edulab-education-staff-area.team-page  .col-md-4 {
+    margin-bottom: 30px;
+}
+.edulab-education-staff-area.team-page  .col-md-4:nth-last-child(-n+3) {
+    margin-bottom: 0px;
+}
+
+/*================================================
+    16. TEAM DETAILS PAGE CSS
+==================================================*/ 
+
+.edulab-team-details-area {
+    background: #f9f9f9 none repeat scroll 0 0;
+}
+.team-details-right > h3 {
+    color: #333;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.team-touch > ul {
+    margin-top: 30px;
+}
+.team-touch span {
+    display: inline-block;
+    font-weight: 700;
+    text-transform: capitalize;
+    width: 15%;
+}
+
+/*================================================
+    17. NEWS AREA CSS
+==================================================*/ 
+
+.single-news{
+    margin-bottom: 0px
+}
+.single-news-desc {
+    background: #f9f9f9 none repeat scroll 0 0;
+    padding: 20px;
+}
+.single-news-desc h4 a {
+    color: #000;
+    display: inline-block;
+    font-weight: 700;
+    margin: 10px 0;
+    text-transform: capitalize;
+}
+.single-news-desc h4 a:hover{
+    color: #3ac6b6
+}
+.news-caption {
+    background-color: rgba(34, 34, 34, 0.7);
+    bottom: 0;
+    left: 0;
+    padding: 8px 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 10;
+    height: 42px
+}
+.news-caption span.news-author {
+    color: #fff;
+    float: left;
+    margin: 0;
+    padding-left: 30px;
+    text-transform: capitalize;
+    font-weight: 400
+}
+.single-news-img > img {
+  width: 100%;
+}
+.news-caption ul.news-section {
+    float: right;
+    width: auto;
+}
+.news-caption ul li {
+    display: inline-block;
+    padding-right: 20px;
+    position: relative;
+}
+.single-news-img {
+    position: relative;
+}
+.news-author i {
+    color: #3ac6b6;
+}
+
+/*================================================
+    18. QUOTES AREA CSS
+==================================================*/ 
+
+.edulab-quotes-area {
+    background: #3ac6b6 none repeat scroll 0 0;
+}
+.quotes-left {
+    color: #fff;
+    text-align: left;
+}
+.quotes-left > h2 {
+    font-size: 27px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 0px
+}
+.quotes-left > p {
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.quotes-right > a {
+    background: #242c42 none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 5px 0;
+    padding: 10px 20px;
+    text-transform: capitalize;
+}
+.quotes-right > a:hover{
+    background: #eee none repeat scroll 0 0;
+    color: #333;
+}
+.quotes-right {
+    text-align: right;
+}
+
+/*================================================
+    19. FOOTER AREA CSS
+==================================================*/
+
+.footer-top-area{
+    background: #212121 none repeat scroll 0 0;
+}
+.text-widget h2 {
+    color: #eee;
+    display: inline-block;
+    font-family: "Rokkitt",serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 5px 0;
+    text-transform: uppercase;
+}
+.text-widget h2 span {
+    color: #3ac6b6;
+    margin-left: 5px;
+}
+.single-footer{
+    color: #9b9b9b;
+    font-weight: 400;
+    margin-top: 0px
+}
+.footer-social-icon{
+    margin-top: 20px
+}
+.footer-social-icon > h3 {
+    font-size: 19px;
+}
+.footer-social{
+    margin-top: 15px
+}
+.footer-social li {
+    display: inline-block;
+    margin: 0px 2px
+}
+.footer-social > li > a {
+    background-color: #333333;
+    border-radius: 50%;
+    color: #777 !important;
+    display: block;
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    width: 40px;
+}
+.fb:hover {
+    background: #4b6ea9 none repeat scroll 0 0 !important;
+    color: #fff !important;
+}
+.twitter:hover {
+    background: #65bbf2 none repeat scroll 0 0 !important;
+    color: #fff !important;
+}
+.gp:hover {
+  background: #bd081c  none repeat scroll 0 0 !important;
+  color: #fff !important;
+}
+.linkedin:hover {
+    background: #0075b5 none repeat scroll 0 0 !important;
+    color: #fff !important;
+}
+.single-footer > h3 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+.single-footer a {
+    color: #c2c2c2;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.single-footer a:hover{
+    color: #3ac6b6 
+}
+.single-footer li {
+    margin-bottom: 5px;
+}
+.top-links > li > a > i{
+    color: #3ac6b6 ;
+    margin-right: 5px;
+    font-size: 18px
+}
+.single-footer .footer-gallery a {
+    display: inline-block;
+    margin: 3px 2px;
+    width: 21%;
+}
+.load-more{
+    font-size: 12px !important
+}
+.footer-newsletter > form {
+    margin-top: 20px;
+    position: relative
+}
+.footer-newsletter input[type="email"] {
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #777;
+    height: 40px;
+    padding: 5px 55px 5px 10px;
+    width: 100%;
+}
+.single-footer form .button {
+    background-color: #3ac6b6;
+    background-image: url("../img/footer_plane.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: medium none;
+    height: 40px;
+    padding: 2px 0;
+    position: absolute;
+    right: 0;
+    text-indent: -99999px;
+    top: 0;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    width: 23%;
+}
+.single-footer form .button:hover{
+    background-color: #242c42 
+}
+.edulab-copyright-area {
+    background: #000 none repeat scroll 0 0;
+    font-weight: 700;
+}
+.edulab-copyright-right p i {
+    color: #3ac6b6;
+    margin: 0 5px;
+}
+.edulab-copyright-right p span {
+    color: #3ac6b6;
+    font-weight: 700;
+    margin: 0 5px;
+}
+.edulab-copyright-left {
+    color: #eee;
+    font-size: 13px;
+    text-align: left;
+}
+.edulab-copyright-right {
+    color: #eee;
+    font-size: 13px;
+    text-align: right;
+}
+
+/*================================================
+    20. FIND COURSE AREA CSS
+==================================================*/
+
+.edulab-find-course-area {
+    background: #eaedf5 none repeat scroll 0 0;
+}
+.find-course-left {
+    color: #434e6c;
+    text-align: left;
+}
+.find-course-left > h2 {
+    font-size: 27px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Raleway",sans-serif;
+}
+.find-course-left > p {
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.find-course-right {
+    margin: 7px 0;
+    text-align: right;
+}
+.find-course-right form button {
+    background: transparent none repeat scroll 0 0;
+    border: medium none;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 15%;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s
+}
+.find-course-right form button:hover{
+    color: #3ac6b6
+}
+.find-course-right input {
+    background: #fff none repeat scroll 0 0;
+    border: medium none;
+    height: 40px;
+    padding: 5px 80px 5px 10px;
+    width: 100%;
+}
+.find-course-right > form {
+    position: relative;
+}
+
+/*================================================
+    21. ALL COURSE PAGE CSS
+==================================================*/
+
+.edulab-popular-courses-area .col-md-4 {
+    margin-bottom: 30px;
+}
+.edulab-popular-courses-area .col-md-4:nth-last-child(-n+3){
+        margin-bottom: 0px
+}
+
+/*================================================
+    22. COURSE LEFT SIDEBAR CSS
+==================================================*/
+
+.edulab-course-sidebar-right{
+    margin: 0px;
+}
+.single-course-widget > h3 {
+    background: #242c42 none repeat scroll 0 0;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 10px
+}
+.single-course-widget {
+    margin-bottom: 30px;
+}
+.single-course-widget:last-child {
+    margin-bottom: 0px;
+}
+.edulab-catagory-widget {
+    background: #f9f9f9 none repeat scroll 0 0;
+}
+.edulab-catagory-widget li {
+    border-bottom: 4px solid #fff;
+}
+.edulab-catagory-widget li a {
+    color: #333;
+    display: block;
+    padding: 10px 20px;
+    text-transform: capitalize;
+}
+.edulab-catagory-widget li a:hover{
+    box-shadow: 0px 0px 3px #cbcbcb;
+    color: #3ac6b6 
+}
+.edulab-catagory-widget span {
+    float: right;
+    color: #333
+}
+.edulab-tag-widget > li {
+    display: inline-block;
+    margin: 4px 2px;
+}
+.edulab-tag-widget li a {
+    background: #f9f9f9 none repeat scroll 0 0;
+    display: block;
+    padding: 5px 10px;
+    text-transform: capitalize;
+}
+.edulab-tag-widget li a:hover{
+    box-shadow: 0px 0px 3px #cbcbcb;
+    color: #3ac6b6 
+}
+.course-widget-img {
+    float: left;
+    height: auto;
+    margin-right: 20px;
+    width: 110px;
+}
+.course-widget-img img {
+    height: auto;
+    width: 100%;
+    margin-left: 10px
+}
+.edulab-course-img-widget{
+    background: #f9f9f9 none repeat scroll 0 0
+}
+.edulab-course-img-widget > li {
+    border-bottom: 4px solid #fff;
+    display: block;
+    padding: 15px 0;
+}
+.course-widget-img {
+    float: left;
+    width: 90px;
+}
+.course-widget-text {
+    display: table-cell;
+    vertical-align: top;
+}
+.course-widget-text > a {
+    display: inline-block;
+    font-weight: 500;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+    font-family: "Raleway",sans-serif;
+}
+.course-widget-text > a:hover{
+    color: #3ac6b6 
+}
+.course-widget-text > p {
+    color: #333;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.top-for-ul {
+    border-bottom: 1px solid #ddd;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 0;
+}   
+.top-for-ul #myTab_2 {
+    float: left;
+    width: 50%;
+}
+.top-for-ul form {
+    float: right;
+    text-align: right;
+    width: 50%;
+}
+.nav-tabs{
+    border-bottom: 0px solid #ddd !important
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+    color: #3ac6b6  !important;
+    border-color: #fff #fff #3ac6b6;
+    border-style: solid;
+    border-width: 1px;
+}
+.top-for-ul form select {
+    border: 1px solid #ddd;
+    cursor: pointer;
+    height: 35px;
+    margin-right: 10px;
+    padding: 5px;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    font-weight: 400
+}
+.top-for-ul form select option {
+    border-bottom: 1px solid #ddd;
+    padding: 5px;
+    text-transform: capitalize
+}
+.tab-content .courses-item {
+    margin-bottom: 30px;
+    display: inline-block;
+    background: #f9f9f9 none repeat scroll 0 0;
+    width: 100%
+}
+#appart_course .tab-all-course .edulab-courses-slide-img > img {
+    height: 240px;
+    width: 100%;
+}
+
+/*================================================
+    23. SINGLE COURSE CSS
+==================================================*/
+
+.single-course-page > h2 {
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.edulab-course-info > p {
+    margin: 10px 0;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    margin-right: 15px;
+}
+.edulab-course-info a:hover{
+    color: #3ac6b6
+}
+.single-course-desc {
+    margin-top: 30px;
+}
+.single-course-desc > h4, .course-syllabus h4 {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.single-course-desc > ul {
+    margin-top: 30px;
+}
+.single-course-desc li {
+    margin: 5px 0;
+}
+.single-course-desc ul li i {
+    color: #3ac6b6;
+    margin-right: 10px
+}
+.single-course-desc a{
+    font-weight: 400
+}
+.single-course-desc a:hover{
+     color: #3ac6b6;
+}
+.single-course-instructor .staff-text{
+    background: #f9f9f9 none repeat scroll 0 0
+}
+.single-course-instructor {
+    margin-top: 50px;
+}
+
+/*================================================
+    24. GALLERY PAGE CSS
+==================================================*/
+
+.gallery-filter{
+    margin-bottom: 50px;
+}
+.gallery-filter ul{
+    text-align: center
+}
+.gallery-filter ul li{
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    text-transform: capitalize;
+    position: relative;
+    padding-right: 20px;
+    margin-left: 20px;
+}
+.gallery-filter ul li:before{
+    position: absolute;
+    content: "/";
+    right: 0;
+    top: 0
+}
+.gallery-filter ul li:last-child:before{
+    display: none
+}
+.gallery-filter ul li:first-child:before{
+    margin-left: 0px
+}
+.single-gallery {
+    height: 210px;
+    width: 283px;
+    float: left;
+    margin: 15px;
+    overflow: hidden;
+    -webkit-transition: box-shadow 0.5s ease 0s;
+    transition: box-shadow 0.5s ease 0s;
+    position: relative
+}
+.single-gallery:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+.single-gallery img {
+    height: 100%;
+    width: 100%;
+}
+.gallery-load-more{
+    text-align: center;
+    margin-top: 40px
+}
+.gallery-hover {
+    background: rgba(0, 0, 0, 0.58) none repeat scroll 0 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    -webkit-transform: scaleY(0);
+          transform: scaleY(0);
+    -webkit-transform-origin: 50% 0 0;
+          transform-origin: 50% 0 0;
+    -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+    transition-property: transform, -webkit-transform;
+    -webkit-transition-timing-function: ease-out;
+          transition-timing-function: ease-out;
+    width: 100%;
+}
+.single-gallery:hover .gallery-hover {
+    -webkit-transform: scaleY(1);
+          transform: scaleY(1);
+    -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+          transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+.gallery-hover p {
+    color: #fff;
+    font-weight: 700;
+    left: 5%;
+    position: absolute;
+    text-transform: capitalize;
+    top: 60%;
+}
+
+/*================================================
+    25. ABOUT PAGE CSS
+==================================================*/
+.feature-left > h3 {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.feature-left > p {
+    margin-top: 20px;
+}
+.feature-left > ul {
+    margin-top: 20px;
+}
+.feature-left ul li i {
+    color: #3ac6b6;
+    margin-right: 10px
+}
+.feature-left li {
+    margin-top: 10px;
+}
+.feature-left a {
+    color: #000;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.feature-left a:hover{
+    color: #3ac6b6;
+}
+
+/*================================================
+    26. NEWS PAGE CSS
+==================================================*/
+
+.edulab-news-area .single-news{
+    margin-top: 30px
+}
+
+/*================================================
+    27. SINGLE NEWS PAGE CSS
+==================================================*/
+
+.single-news-title > h2{
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 30px
+}
+.single-news-title ul {
+    background-color: #f4f4f4;
+    float: left;
+    padding: 10px;
+    width: 100%;
+}
+.single-news-title ul li {
+    border-right: 1px solid #d5d5d5;
+    display: inline-block;
+    margin-right: 20px;
+    padding-right: 20px;
+    position: relative;
+}
+.single-news-title ul li:last-child{
+    border-right: 0px solid #d5d5d5
+}
+.single-news-title ul li img {
+    display: inline-block;
+    margin-right: 15px;
+    padding-top: 3px;
+    vertical-align: top;
+}
+.single-news-title ul li p {
+    display: inline-block;
+    margin: 0;
+}
+.single-news-title ul li p span {
+    color: #666666;
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: normal;
+}
+.single-news-title ul li p span:nth-child(1) {
+    font-size: 14px;
+    margin: 0 0 3px;
+}
+.single-news-title a {
+    background: #3ac6b6 none repeat scroll 0 0;
+    bottom: 2px;
+    color: #fff;
+    display: inline-block;
+    font-family: "Raleway",sans-serif;
+    font-weight: 700;
+    height: 57px;
+    line-height: 56px;
+    padding: 0 25px;
+    position: absolute;
+    right: 0;
+    text-transform: uppercase;
+    z-index: 9;
+}
+.single-news-title a:hover{
+    background: #242c42 none repeat scroll 0 0;
+}
+.single-news-title {
+    float: left;
+    margin: 0 0 30px;
+    position: relative;
+    width: 100%;
+    z-index: 99
+}
+.single-page-news-img > p {
+    margin: 0 0 15px;
+}
+.single-page-news-img > img {
+    margin-bottom: 20px;
+}
+.single-course-desc > h3, .comment-count > h3, .edulab-leave-comment > h3 {
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #555
+}
+.news-comment {
+    margin-top: 40px;
+    padding-top: 25px;
+}
+.comment-list {
+    margin-top: 40px;
+}
+.single-comment-item {
+    background: #f9f9f9 none repeat scroll 0 0;
+    margin: 10px 0;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-top: 30px;
+}
+.comment-list ul li img {
+    border-radius: 50%;
+    display: block;
+    height: 70px;
+    margin: 0 auto;
+    width: 70px;
+}
+.edulab-comment-item:last-child{
+    border-bottom: 0px solid #ddd
+}
+.edulab-comment-item h4 {
+    color: #555;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.edulab-comment-item span {
+    color: #777;
+    font-size: 13px;
+}
+.edulab-comment-item a {
+    color: #555;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: capitalize;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+.edulab-comment-item a:hover{
+    color: #3ac6b6
+}
+.comment-list ul ul {
+    margin-left: 100px;
+}
+.edulab-leave-comment {
+    margin-top: 50px;
+    margin-bottom: 0
+}
+.ns-com-name {
+    background: transparent none repeat scroll 0 0 !important;
+    border: 1px solid #ddd !important;
+    float: left !important;
+    height: 45px !important;
+    margin-bottom: 20px !important;
+    margin-right: 20px !important;
+    margin-top: 0 !important;
+    padding: 10px 15px !important;
+    width: 45% !important;
+}
+.comment {
+    border: 1px solid #ddd;
+    height: 160px;
+    margin-bottom: 20px;
+    padding: 5px 15px;
+    width: 93% !important;
+}
+.edulab-leave-comment input[type="submit"] {
+    background: #3ac6b6 none repeat scroll 0 0;
+    border: medium none;
+    color: #fff;
+    display: block;
+    font-family: "Raleway",sans-serif;
+    font-weight: 700;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s
+}
+.edulab-leave-comment input[type="submit"]:hover{
+    background: #242c42 none repeat scroll 0 0;
+}
+
+/*================================================
+    28. FAQS PAGE CSS
+==================================================*/
+
+.edulab-faq-page-area {
+    background: #f9f9f9 none repeat scroll 0 0;
+}
+.panel-group{
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+.panel {
+    border: medium none;
+    -webkit-transition: all 0.4s ease  0s;
+    transition: all 0.4s ease  0s
+}
+.panel:hover{
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+} 
+.panel-heading {
+    background-color: #fff  !important;
+    color: #555 !important;
+    padding: 0
+}
+.panel-title {
+    font-size: 14px;
+}
+.panel-title a {
+    display: block;
+    padding:15px;
+}
+.panel.panel-default.active_acc{
+    box-shadow: 0 10px 18px rgba(0, 0, 0, 0.17);
+}
+.panel-body{
+    -webkit-transition: all 0.4s ease 0.0s;
+    transition: all 0.4s ease 0.0s;
+    font-weight: 400
+}
+.panel.panel-default.active_acc .panel-body{
+    background: #3ac6b6 none repeat scroll 0 0;
+    color: #fff;
+    
+}
+.switch{
+    color: #3ac6b6;
+    float: right
+}
+.edulab-faqs-right{
+    margin-top: 0
+}
+.edulab-faqs-right > h3, .edulab-faqs-left > h3{
+    color: #555;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: capitalize
+}
+.edulab-faqs-right > form {
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
+    margin-top: 30px;
+    padding: 30px 50px;
+}
+.edulab-faqs-right form label {
+    display: block;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #555
+}
+.edulab-faqs-right p {
+    margin-bottom: 15px;
+}
+.edulab-faqs-right input {
+    background: #fafafa none repeat scroll 0 0;
+    border: medium none;
+    height: 40px;
+    padding:5px 10px;
+    width: 100%;
+}
+.edulab-faqs-right textarea{
+    height: 120px;
+    width: 100%;
+    padding: 5px 10px;
+    background: #fafafa none repeat scroll 0 0;
+    border: medium none;
+}
+.edulab-faqs-right input[type="submit"] {
+    background: #3ac6b6 none repeat scroll 0 0;
+    color: #fff;
+    display: block;
+    font-family: "Raleway",sans-serif;
+    font-weight: 700;
+    line-height: 22px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    width: auto;
+}
+.edulab-faqs-right input[type="submit"]:hover{
+    background: #242c42 none repeat scroll 0 0
+}
+
+/*================================================
+    29. 404 PAGE CSS
+==================================================*/
+
+.edulab-notfound-area h2 {
+    font-size: 180px;
+    font-family: "Philosopher",sans-serif;
+    font-weight: 700;
+    line-height: 165px;
+    margin-bottom: 30px;
+    color: #3ac6b6
+}
+.edulab-notfound-area h3 {
+    color: #555;
+    margin-bottom: 30px;
+}
+.edulab-notfound-area form {
+    margin-bottom: 30px;
+    position: relative;
+}
+.edulab-notfound-area input {
+    background: transparent none repeat scroll 0 0 !important;
+    border: 1px solid #ddd !important;
+    height: 45px !important;
+    padding: 5px 100px 5px 10px !important;
+    width: 100% !important;
+}
+.edulab-notfound-area button {
+    background: #3ac6b6 none repeat scroll 0 0;
+    border: medium none;
+    color: #fff;
+    font-size: 26px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    width: 100px;
+}
+.edulab-notfound-area button:hover{
+    background: #242c42 none repeat scroll 0 0;
+}
+.social-connect h4 {
+    font-size: 23px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.social-connect > ul {
+    margin-top: 30px;
+}
+.social-connect li {
+    display: inline-block;
+    margin: 0 3px;
+}
+.social-connect a {
+    background: #eee none repeat scroll 0 0;
+    border-radius: 0 55px 55px;
+    color: #555;
+    display: block;
+    font-size: 18px;
+    height: 45px;
+    line-height: 45px;
+    width: 45px;
+}
+.edulab-copyright-404 {
+    margin-top: 30px;
+    font-family: "Philosopher",sans-serif;
+    font-weight: 400;
+    text-transform: capitalize
+}
+.edulab-copyright-404 i, span {
+    color: #3ac6b6;
+    margin: 0 5px;
+}
+
+/*================================================
+    30. LOGIN PAGE CSS
+==================================================*/
+
+.edulab-login-page-area {
+    background-color: #333;
+    background-position: center center;
+    background-size: cover;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+.login-bg {
+    background-image: url("../img/facts-bg.jpg");
+}
+.edulab-login-overlay {
+    background: rgba(34, 34, 34, 0.6) none repeat scroll 0 0;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+.edulab-login-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+.edulab-login-logo h2 {
+    color: #fff;
+    display: inline-block;
+    font-family: "Rokkitt",serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 5px 0;
+    text-transform: uppercase;
+    font-size: 50px
+}
+.edulab-login-logo span {
+    color: #3ac6b6;
+}
+.login-slogan {
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+    text-transform: capitalize;
+    color: #fff
+}
+.edulab-login-logo {
+    margin-bottom: 10px;
+}
+.login-box form {
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(#eeefef, #ffffff 10%) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) linear-gradient(#eeefef, #ffffff 10%) repeat scroll 0 0;
+    border-radius: 5px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 3px 7px rgba(0, 0, 0, 0.3), 0 1px rgb(255, 255, 255) inset, 0 -3px 2px rgba(0, 0, 0, 0.25) inset;
+    margin: 60px auto 30px;
+    padding: 10px;
+    position: relative;
+    width: 300px;
+}
+.login-box form .field {
+    position: relative;
+    margin: 10px 0
+}
+.login-box form input[type="text"], .login-box form input[type="password"], .login-box form input[type="email"] {
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1) inset, 0 3px 2px rgba(0, 0, 0, 0.1) inset;
+    color: #777;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 10px 18px 10px 45px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+    -webkit-transition: color 0.3s ease-out 0s;
+    transition: color 0.3s ease-out 0s;
+    width: 100%;
+    height: 50px
+}
+.login-box form .field i {
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 0 0 rgba(255, 255, 255, 0.7);
+    color: #777777;
+    height: 36px;
+    left: 0;
+    line-height: 42px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    width: 36px;
+}
+.login-box form .submit {
+    background: #ffffff none repeat scroll 0 0;
+    border-radius: 50%;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1), 0 3px 2px rgba(0, 0, 0, 0.1), 0 -3px 2px rgba(0, 0, 0, 0.2) inset;
+    height: 65px;
+    padding: 10px;
+    position: absolute;
+    right: -25px;
+    top: 38px;
+    width: 65px;
+    z-index: 2;
+}
+.login-box form .registration {
+    background: #ffffff none repeat scroll 0 0;
+    border-radius: 50%;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1), 0 3px 2px rgba(0, 0, 0, 0.1), 0 -3px 2px    rgba(0, 0, 0, 0.2) inset;
+    height: 65px;
+    padding: 10px;
+    position: absolute;
+    right: -25px;
+    top: 95px;
+    width: 65px;
+    z-index: 2;
+}
+.login-box form button {
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(#3ac6b6, #2eb4a4) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) linear-gradient(#3ac6b6, #2eb4a4) repeat scroll 0 0;
+    border: medium none;
+    border-radius: inherit;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 1px 2px rgba(0, 0, 0, 0.35), 0 3px 2px rgba(255, 255, 255, 0.2) inset, 0 -3px 2px rgba(0, 0, 0, 0.1) inset;
+    color: white;
+    cursor: pointer;
+    font-size: 21px;
+    height: 100%;
+    line-height: 30px;
+    margin-top: -1px;
+    width: 100%;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s
+}
+.login-box form button:hover{
+    background:#242c42 none repeat scroll 0 0
+}
+
+/*================================================
+    31. CONTACT PAGE CSS
+==================================================*/
+
+.map_area {
+    height: 280px;
+}
+.edulab-contact-desc {
+    margin-bottom: 50px;
+}
+.edulab-contact-desc > h3 {
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    color: #555
+}
+.single-contact-left {
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
+    margin-top: 20px;
+    padding: 20px;
+}
+.single-contact-left:first-child{
+    margin-top: 0px
+}
+.contact-icon {
+    background: #f9f9f9 none repeat scroll 0 0;
+    color: #3ac6b6;
+    float: left;
+    font-size: 30px;
+    height: 65px;
+    line-height: 2;
+    margin-right: 10px;
+    text-align: center;
+    width: 30%;
+}
+.contact-text {
+    font-family: "Raleway",sans-serif;
+    text-transform: lowercase;
+}
+.contact-text > h4 {
+    color: #000;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+.contact-text > span {
+    color: #555;
+    display: block
+}
+.contact-text > p {
+    font-size: 15px;
+    line-height: 24px;
+}
+.edulab-contact-form-right > form {
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
+    padding: 30px 50px;
+}
+.edulab-contact-form-right input {
+    background: #fafafa none repeat scroll 0 0;
+    border: medium none;
+    height: 40px;
+    padding: 5px 10px;
+    width: 100%;
+}
+.edulab-contact-form-right textarea {
+    background: #fafafa none repeat scroll 0 0;
+    border: medium none;
+    height: 120px;
+    padding: 5px 10px;
+    width: 100%;
+}
+.edulab-contact-form-right form p {
+    margin: 10px 0;
+}
+.edulab-contact-form-right input[type="submit"] {
+    font-weight: 400;
+    line-height: 10px;
+    padding: 10px 15px;
+    width: auto;
+    background: #3ac6b6;
+    color: #fff;
+}

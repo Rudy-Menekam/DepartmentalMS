@@ -32,6 +32,7 @@ class AuthServiceProvider extends ServiceProvider
         
         if (! app()->runningInConsole()) {
             $roles = Role::with('permission')->get();
+            $permissionArray = array();
 
             foreach ($roles as $role) {
                 foreach ($role->permission as $permission) {
