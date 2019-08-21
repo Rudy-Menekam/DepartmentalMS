@@ -19,6 +19,8 @@ Generated with [QuickAdminPanel](https://quickadminpanel.com)
 
 *Now create an empty database in mysql with any name of your choice. Add database credentails to `.env`*
 
+- `php artisan migrate --seed`
+
 - `php artisan serve`
 
 Credentials to log in:
