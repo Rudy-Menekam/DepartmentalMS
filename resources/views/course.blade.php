@@ -36,7 +36,7 @@
                     data-key="{{ env('PUB_STRIPE_API_KEY') }}"
                     data-amount="{{ $course->price * 100 }}"
                     data-currency="usd"
-                    data-name="Quick LMS"
+                    data-name="Departmental MS"
                     data-label="Buy course (${{ $course->price }})"
                     data-description="Course: {{ $course->title }}"
                     data-image="https://stripe.com/img/documentation/checkout/marketplace.png"

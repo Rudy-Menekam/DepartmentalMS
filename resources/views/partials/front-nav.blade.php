@@ -7,7 +7,7 @@
                                     <a href="{{ route('getting_started') }}">Getting Started</a>
                                 </li>
                                 <li>
-                                    <a href="{{ route('about') }}">About</a>
+                                <a href="{{ route('auth.login') }}" class="signin">sign in</a>
                                 </li>
                                 <li>
                                     <a href="#">Blog</a>

@@ -43,7 +43,7 @@
 <body>
 
     <!-- Header Top Area Start -->
-    <div class="edulab-header-top-area section_15">
+   <!-- <div class="edulab-header-top-area section_15">
         <div class="container">
             <div class="row">
                 <div class="col-md-5 col-sm-5">
@@ -73,15 +73,16 @@
                         </ul>
                     </div>
                 </div>
+
                 <div class="col-md-3 col-sm-3">
                     <div class="edulab-header-top-right">
-                       <!--  <a href="{{ route('auth.register') }}" class="register">register</a> -->
+                        <a href="{{ route('auth.register') }}" class="register">register</a>
                         <a href="{{ route('auth.login') }}" class="signin">sign in</a>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
     <!-- Header Top Area End -->
     
     
@@ -240,8 +241,7 @@
                         <div class="edulab-ch">
                             <div class="edulab-ch-item">
                                 <div class="edulab-ch-info">
-                                    <h5>Science</h5>
-                                    <p>by jhon smith</p>
+                                    
                                 </div>
                                 <div class="ch-thumb ch-img-1">
                                     <i class="fa fa-users "></i>
@@ -255,10 +255,9 @@
         </div>
     </section>
     <!-- Choose Courses Area End -->
-    
-    
+        
     <!-- Important Facts Area Start -->
-    <section class="edulab-important-facts-area section_100">
+   <!-- <section class="edulab-important-facts-area section_100">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
@@ -293,11 +292,11 @@
             </div>
         </div>
     </section>
-    <!-- Important Facts Area End -->
+    <-- Important Facts Area End -->
     
     
     <!-- Popular Courses Area Start -->
-    <section class="edulab-popular-courses-area section_100">
+    <!--<section class="edulab-popular-courses-area section_100">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -435,7 +434,7 @@
 
 
 <!-- About Area Start -->
-<section class="edulab-about-area section_100">
+<!--<section class="edulab-about-area section_100">
     <div class="container">
         <div class="row">
             <div class="edulab-section-title">
@@ -469,7 +468,7 @@
 
 
 <!-- Pricing Area Start -->
-<section class="edulab-pricing-area section_100">
+<!--<section class="edulab-pricing-area section_100">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -587,7 +586,7 @@
 
 
 <!-- Testimonial Area Start -->
-<section class="edulab-people-say-area section_100">
+<!--<section class="edulab-people-say-area section_100">
     <div class="overlay"></div>
     <div class="container">
         <div class="row">
@@ -630,7 +629,7 @@
 
 
 <!-- Education Staff Area Start -->
-<section class="edulab-education-staff-area section_100">
+<!--<section class="edulab-education-staff-area section_100">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -710,7 +709,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="edulab-section-title">
-                    <h2>Education <span>News</span></h2>
+                    <h2>Latest<span>Posts</span></h2>
                     <div class="heading-line"></div>
                 </div>
             </div>
@@ -816,7 +815,7 @@
 
 
 <!-- Quotes Area Start -->
-<section class="edulab-quotes-area section_25">
+<!--<section class="edulab-quotes-area section_25">
     <div class="container">
         <div class="row">
             <div class="col-md-8 col-sm-8">
@@ -847,16 +846,11 @@
                             <a href="index.html">
                                 <h2>Departmental<span>MS</span></h2>
                             </a>
-                            <p>Ipsum dolor sit amet consect adipsicing sed elit tempor incididunt ueta nostrud dolore magna aliqua ut enim minim .</p>
+                            <p>Departmental MS is an online platform to help teachers to manage their courses and engage their students and collaborators.</p>
                         </div>
                         <div class="footer-social-icon">
                             <h3>Follow Us</h3>
                             <ul class="footer-social">
-                                <li>
-                                    <a href="#" class="fb">
-                                        <i class="fa fa-facebook"></i>
-                                    </a>
-                                </li>
                                 <li>
                                     <a href="#" class="twitter">
                                         <i class="fa fa-twitter"></i>
@@ -880,17 +874,15 @@
                     <div class="single-footer">
                         <h3>usefull links</h3>
                         <ul class="top-links">
-                            <li><a href="#"><i class="fa fa-angle-right"></i>Teachers</a></li>
+                            <li><a href="#"><i class="fa fa-angle-right"></i>Getting started</a></li>
                             <li><a href="#"><i class="fa fa-angle-right"></i>Courses</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right"></i>about edulab</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right"></i>help topics</a></li>
                             <li><a href="#"><i class="fa fa-angle-right"></i>policies</a></li>
                             <li><a href="#"><i class="fa fa-angle-right"></i>blog post</a></li>
                             <li><a href="#"><i class="fa fa-angle-right"></i>support</a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-3">
+                <!--<div class="col-md-3 col-sm-3">
                     <div class="single-footer">
                         <h3>gallery</h3>
                         <div class="footer-gallery">
@@ -921,12 +913,12 @@
                         </div>
                         <a href="#" class="load-more">Load more <i class="fa fa-angle-double-right"></i></a>
                     </div>
-                </div>
+                </div> -->
                 <div class="col-md-3 col-sm-3">
                     <div class="single-footer">
-                        <h3>Newsletter</h3>
+                        <h3>Keep In Touch</h3>
                         <div class="footer-newsletter">
-                            <p>Accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium quas molestias except. </p>
+                            <p>Keep in touch for any questions and updates</p>
                             <form>
                                 <input name="email" placeholder="Email Address" type="email">
                                 <input class="button" name="subscribe" type="submit">

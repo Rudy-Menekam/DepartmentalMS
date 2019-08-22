@@ -1271,7 +1271,9 @@ li {
 /*================================================
     19. FOOTER AREA CSS
 ==================================================*/
-
+footer{
+    padding: 35px 0 0;
+}
 .footer-top-area{
     background: #212121 none repeat scroll 0 0;
 }
@@ -1291,7 +1293,8 @@ li {
 .single-footer{
     color: #9b9b9b;
     font-weight: 400;
-    margin-top: 0px
+    margin-top: 0px;
+    padding: 2;
 }
 .footer-social-icon{
     margin-top: 20px
