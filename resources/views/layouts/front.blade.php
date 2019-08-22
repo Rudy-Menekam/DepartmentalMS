@@ -41,49 +41,6 @@
 
 </head>
 <body>
-
-    <!-- Header Top Area Start -->
-    <div class="edulab-header-top-area section_15">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-5 col-sm-5">
-                    <div class="edulab-header-top-left">
-                        <p>
-                            <a href="#">
-                                <i class="fa fa-envelope-o"></i>
-                                example@gmail.com
-                            </a>
-                        </p>
-                        <p>
-                            <a href="#">
-                                <i class="fa fa-phone"></i>
-                                +123 456 0321
-                            </a>
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-4">
-                    <div class="edulab-header-top-middle">
-                        <ul>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="#"><i class="fa fa-skype"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-3">
-                    <div class="edulab-header-top-right">
-                        <!-- <a href="{{ route('auth.register') }}" class="register">register</a> -->
-                        <a href="{{ route('auth.login') }}" class="signin">sign in</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Header Top Area End -->
-    
     
     <!-- Main Header Area Start -->
     <header class="edulab-main-header-area sticky">
@@ -91,7 +48,7 @@
             <div class="row">
                 <div class="col-md-3">
                     <div class="edulab-logo section_25">
-                        <a href="index.html">
+                        <a href="{{ route('welcome') }}">
                             <h1>Departmental<span>MS</span></h1>
                         </a>
                     </div>
