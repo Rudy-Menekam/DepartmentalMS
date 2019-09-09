@@ -64,3 +64,7 @@ Route::group(['middleware' => ['admin'], 'prefix' => 'admin', 'as' => 'admin.'],
     Route::post('/spatie/media/remove', 'Admin\SpatieMediaController@destroy')->name('media.remove');
 
 });
+
+
+// STUDENT ROUTES
+Route::get('/home', 'StudentController@dashboard')->name('student.board');
