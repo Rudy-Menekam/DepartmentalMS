@@ -67,4 +67,6 @@ Route::group(['middleware' => ['admin'], 'prefix' => 'admin', 'as' => 'admin.'],
 
 
 // STUDENT ROUTES
-Route::get('/home', 'StudentController@dashboard')->name('student.board');
+Route::get('/home', 'StudentController@dashboard')->name('student.dashboard');
+Route::get('/student/courses', 'StudentController@courses')->name('student.courses');
+Route::get('/student/timetable'. 'StudentController@timetable')->name('student.timetable');

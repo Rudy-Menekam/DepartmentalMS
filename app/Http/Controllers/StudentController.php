@@ -18,7 +18,17 @@ class StudentController extends Controller
 
     public function dashboard()
     {
-    	return '';
+    	return view('student.home');
+    }
+
+    public function courses()
+    {
+    	return view('student.courses');
+    }
+
+    public function timetable()
+    {
+    	return view('student.timetable');
     }
 
 }
