@@ -150,12 +150,12 @@
                 </tfoot>
                 <tbody>
                   <tr>
-                    <td>CEC110</td>
-                    <td>System Architecture</td>
+                    <td>CSC305</td>
+                    <td>C++</td>
                     <td>Monday</td>
                     <td>11am-1pm</td>
                     <td>Class Block 2D</td>
-                    <td>Mr. Tebit</td>
+                    <td>Dr Nyamsi</td>
                   </tr>
                   <tr>
                     <td>ENG102</td>
@@ -166,12 +166,12 @@
                     <td>Mme. Ebot</td>
                   </tr>
                   <tr>
-                    <td>CEE203</td>
-                    <td>Computer Networking</td>
+                    <td>CSC404</td>
+                    <td>Software engineering</td>
                     <td>Friday</td>
                     <td>7am-9am</td>
                     <td>Resto I</td>
-                    <td>Mr. Valentine</td>
+                    <td>Dr. Waka and Dr. Nyamsi</td>
                   </tr>
     
                   </tr>
