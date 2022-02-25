@@ -6,14 +6,15 @@
     "type": "project",
     "require": {
         "php": ">=5.6.4",
+        "doctrine/dbal": "^2.5",
+        "intervention/image": "^2.3",
         "laravel/framework": "5.4.*",
         "laravel/tinker": "~1.0",
         "laravelcollective/html": "^5.3",
-        "intervention/image": "^2.3",
-        "doctrine/dbal": "^2.5",
-        "unisharp/laravel-filemanager": "^1.7",
+        "phpdocumentor/reflection-docblock": "~2.0",
         "spatie/laravel-medialibrary": "^3.0",
-        "stripe/stripe-php": "^3.21"
+        "stripe/stripe-php": "^3.21",
+        "unisharp/laravel-filemanager": "^2.3"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
